@@ -10,7 +10,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/main/assets/ai_ml_ds_dl.jpg" alt="AI ML DS DL Banner" style="width:100%;">
+<img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/Images/HardikSankhlaLinkedinProfileBackground.png" alt="AI ML DS DL Banner" style="width:100%;">
 
 ## 👨‍💻 About Me
 - 🎓 Data Science student at JIET Institute of Design and Technology
