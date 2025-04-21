@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Hardik Sankhla 👋</h1>
+<h1 align="center">Hardik Sankhla 👋</h1>
 <h3 align="center">Enthusiastic Data Science Student | AWS & Frontend Developer | Open Source Contributor</h3>
 
 <p align="center">
@@ -12,7 +12,45 @@
 
 <img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/Images/HardikSankhlaLinkedinProfileBackground.png" alt="AI ML DS DL Banner" style="width:100%;">
 
+
+
+
+
+
+# Hi there, I'm Hardik Sankhla 👋
+
+<div align="center" style="text-align: left;">
+  <a href="https://github.com/Hardik-Sankhla" target="_blank" style="text-decoration: none;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Georgia&weight=800&size=30&duration=2000&pause=1000&color=6440AE&width=435&lines=I+build+systems+that+think%2C;models+that+evolve%2C;and+algorithms+that+predict."
+         alt="Typing SVG"
+         style="filter: drop-shadow(0 0 8px #6440AE); transition: all 0.3s ease-in-out;" />
+  </a>
+</div>
+
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Hardik-Sankhla&data=followers,repositories,stars,commits&theme=dracula)](https://github.com/Jurredr/github-widgetbox)
+
+
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/hardik-sankhla/">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn logo" />
+  </a>
+  <a href="https://www.youtube.com/">
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube logo" />
+  </a>
+  <a href="https://twitter.com/hardik_sankhla">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter logo" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Hardik-Sankhla&color=blue" alt="Profile Views" />
+</div>
+
 ## 👨‍💻 About Me
+<p align="left">I'm Hardik Sankhla from Jodhpur, I am a passionate software developer with a keen interest in building scalable and efficient applications. I enjoy working with modern web technologies and continuously learning new things to enhance my skills. 
+<br><br>- 🔭 I’m working as AI Intern at Gyan Netra<br>- 📚 I'm currently learning Generative AI <br>- ⚡ In my free time, I explore AI Agents & Agentic AI </p>
 - 🎓 Data Science student at JIET Institute of Design and Technology
 - 💼 Skilled in Data Analytics, Visualization, ML, and Cloud Computing
 - 💡 Eager to contribute innovative solutions in both Data Science and Cloud domains
