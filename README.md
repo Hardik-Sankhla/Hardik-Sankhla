@@ -82,18 +82,76 @@
 - Utilized Kaggle API for dataset acquisition and data preprocessing
 - Implemented a CNN architecture and achieved satisfactory accuracy on the test set
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hardik-Sankhla&layout=compact" alt="Top Languages">
-</p>
+# 📊 GitHub Stats
+## 📈 Overall Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hardik-Sankhla&show_icons=true" alt="GitHub Stats">
-</p>
+<table align="center" style="background-color:#282A36; color:#F8F8F2; border-radius:10px; border:2px solid #6272A4; padding:10px; width:100%; max-width:850px;">
+  
+  <!-- Trophy Section -->
+  <tr>
+    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
+      🏆 GitHub Trophies
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <a href="https://github.com/ryo-ma/github-profile-trophy">
+        <img src="https://github-profile-trophy.vercel.app/?username=Hardik-Sankhla&theme=onedark" style="max-width:100%; height:auto;"/>
+      </a>
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hardik-Sankhla" alt="GitHub Streak">
-</p>
+  <!-- GitHub Stats -->
+  <tr>
+    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
+      📈 GitHub Stats
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=Hardik-Sankhla&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" style="max-width:100%; height:auto;"/>
+    </td>
+  </tr>
+
+  <!-- Top Languages -->
+  <tr>
+    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
+      💻 Most Used Languages
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Hardik-Sankhla&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" style="max-width:100%; height:auto;"/>
+    </td>
+  </tr>
+
+  <!-- Streak Stats -->
+  <tr>
+    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
+      🔥 Streak Stats
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <img src="https://streak-stats.demolab.com/?user=Hardik-Sankhla&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" style="max-width:100%; height:auto;"/>
+    </td>
+  </tr>
+
+  <!-- Activity Graph -->
+  <tr>
+    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
+      📈 Activity Graph
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hardik-Sankhla&theme=dracula" style="max-width:100%; height:auto;"/>
+    </td>
+  </tr>
+
+</table>
+
+
 
 ## 📫 Let's Connect!
 Feel free to reach out to me via [Email](mailto:datascientist.hardiksankhla@email.com) or [LinkedIn](https://linkedin.com/in/hardik-sankhla).
