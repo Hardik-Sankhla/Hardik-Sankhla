@@ -150,14 +150,20 @@
   </tr>
 
 </table>
+## 💬 Let's Connect!
+Feel free to reach out if you want to collaborate on a project, need any help, or just want to say hi! 😊
 
+💼 [LinkedIn](https://www.linkedin.com/in/hardik-sankhla/) | 📝 [PeerList](https://peerlist.io/hardiksankhla) | ✉️ [Email Me](mailto:datascientist.hardikSankhla@gmail.com)
 
+<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
+<br>
 
-## 📫 Let's Connect!
-Feel free to reach out to me via [Email](mailto:datascientist.hardiksankhla@email.com) or [LinkedIn](https://linkedin.com/in/hardik-sankhla).
-
----
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/main/assets/footer.png" alt="Footer Image" style="width:100%;">
+        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
 </p>
+
+
