@@ -39,7 +39,7 @@
   <a href="https://www.youtube.com/">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube logo" />
   </a>
-  <a href="https://twitter.com/hardik_sankhla">
+  <a href="https://x.com/AIDrivenHardik">
     <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter logo" />
   </a>
 </div>
