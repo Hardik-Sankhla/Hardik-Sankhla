@@ -133,7 +133,7 @@
   </tr>
   <tr>
     <td align="center" style="padding:10px;">
-      <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <a href="">
         <img src="https://github-profile-trophy.vercel.app/?username=Hardik-Sankhla&theme=onedark" style="max-width:100%; height:auto;"/>
       </a>
     </td>
