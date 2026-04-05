@@ -1,209 +1,196 @@
-<h1 align="center">Hardik Sankhla 👋</h1>
-<h3 align="center">Enthusiastic Data Science Student | AWS & Frontend Developer | Open Source Contributor</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/hardik-sankhla"><img src="https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://github.com/Hardik-Sankhla"><img src="https://img.shields.io/badge/GitHub-Hardik%20Sankhla-black?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <a href="mailto:datascientist.hardiksankhla@email.com"><img src="https://img.shields.io/badge/Email-datascientist.hardiksankhla%40email.com-red?style=for-the-badge&logo=gmail" alt="Email"></a>
-  <a href="https://dataxhardik.wixsite.com/myportfolio"><img src="https://img.shields.io/badge/Portfolio-Hardik%20Sankhla-ff69b4?style=for-the-badge&logo=appveyor" alt="Portfolio"></a>
-</p>
+<img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/Images/HardikSankhlaLinkedinProfileBackground.png" alt="Hardik Sankhla — AI/ML Banner" width="100%" />
+
+# Hardik Sankhla 🤖
+
+<a href="https://readme-typing-svg.herokuapp.com">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Data+Scientist+%7C+AI+Engineer;Building+systems+that+think+%F0%9F%A7%A0;Models+that+evolve+%F0%9F%94%A5;Algorithms+that+predict+%F0%9F%93%88;Exploring+Agentic+AI+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-sankhla)
+[![GitHub](https://img.shields.io/badge/GitHub-Hardik--Sankhla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
+[![Twitter/X](https://img.shields.io/badge/X-AIDrivenHardik-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AIDrivenHardik)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-ff69b4?style=for-the-badge&logo=firefox&logoColor=white)](https://dataxhardik.wixsite.com/myportfolio)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:datascientist.hardiksankhla@gmail.com)
+
+<br/>
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Hardik-Sankhla&data=followers,repositories,stars,commits&theme=dracula)](https://github.com/Hardik-Sankhla)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Hardik-Sankhla&color=blueviolet&style=flat-square&label=Profile+Views)
+
+</div>
 
 ---
 
-<img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/Images/HardikSankhlaLinkedinProfileBackground.png" alt="AI ML DS DL Banner" style="width:100%;">
-
-
-
-
-
-
-# Hi there, I'm Hardik Sankhla 👋
-
-<div align="center" style="text-align: left;">
-  <a href="https://github.com/Hardik-Sankhla" target="_blank" style="text-decoration: none;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Georgia&weight=800&size=30&duration=2000&pause=1000&color=6440AE&width=435&lines=I+build+systems+that+think%2C;models+that+evolve%2C;and+algorithms+that+predict."
-         alt="Typing SVG"
-         style="filter: drop-shadow(0 0 8px #6440AE); transition: all 0.3s ease-in-out;" />
-  </a>
-</div>
-
-
-[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Hardik-Sankhla&data=followers,repositories,stars,commits&theme=dracula)](https://github.com/Hardik-Sankhla/)
-
-
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/hardik-sankhla/">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn logo" />
-  </a>
-  <a href="https://www.youtube.com/@Hardik-Sankhla">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube logo" />
-  </a>
-  <a href="https://x.com/AIDrivenHardik">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter logo" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hardik-Sankhla&color=blue" alt="Profile Views" />
-</div>
-
 ## 👨‍💻 About Me
-<p align="left">I'm Hardik Sankhla from Jodhpur, I am a passionate software developer with a keen interest in building scalable and efficient applications. I enjoy working with modern web technologies and continuously learning new things to enhance my skills. 
-<br><br>- 🔭 I’m working as AI Intern at Gyan Netra<br>- 📚 I'm currently learning Generative AI <br>- ⚡ In my free time, I explore AI Agents & Agentic AI </p>
-- 🎓 Data Science student at JIET Institute of Design and Technology
-- 💼 Skilled in Data Analytics, Visualization, ML, and Cloud Computing
-- 💡 Eager to contribute innovative solutions in both Data Science and Cloud domains
-- 🌱 Currently learning advanced concepts in Deep Learning
 
-## 🚀 Skills
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) 
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+```python
+class HardikSankhla:
+    name       = "Hardik Sankhla"
+    location   = "Jodhpur, Rajasthan 🇮🇳"
+    education  = "B.Tech Data Science @ JIET Institute of Design & Technology"
+    role       = "AI Intern @ Gyan Netra"
 
-### Frameworks and Libraries
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) 
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) 
+    currently  = ["Learning Generative AI", "Exploring Agentic AI", "Building AI-powered tools"]
+    interests  = ["Large Language Models", "Computer Vision", "Cloud Computing (AWS)", "Deep Learning"]
+    
+    ask_me_about = ["Python", "ML/DL", "AWS", "Data Science", "Frontend Dev"]
+    fun_fact     = "I love chess and solving logic puzzles — same skillset as debugging 🤣"
+```
+
+---
+
+## 🔭 What I'm Currently Doing
+
+| 🚀 | Activity |
+|---|---|
+| 💼 | **AI Intern** at Gyan Netra — building Generative AI pipelines |
+| 📚 | Deep-diving into **Agentic AI** and multi-agent systems |
+| 🧠 | Exploring **LLMs, RAG, and LangChain** in real applications |
+| 🎓 | Final year B.Tech — Data Science @ JIET Jodhpur |
+| 🌱 | Advanced **Deep Learning** — CNNs, Transformers, Diffusion models |
+
+---
+
+## 🛠️ Tech Stack
+
+### 🧬 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 🤖 AI / ML / Data Science
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### 🌐 Web & Frameworks
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### DevOps and Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) 
+### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-### Cloud and Security
-![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) 
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white) 
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Data Visualization
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white) 
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+---
 
-### Others
-- Data Modeling
-- Design Patterns
-- Software Engineering
-- Machine Learning
-- NLP
-- Deep Learning (ANN, CNN)
-- Computer Vision
+## 🚀 Featured Projects
 
-## 🔭 Internships
-### AWS Cloud Computing Intern | LinuxWorld Informatics Pvt Ltd (Jul 2023 – Sep 2023)
-- Proficient with AWS CLI and managing data efficiently through snapshots
-- Explored AWS storage solutions like EBS, S3, and EFS
-- Learned monitoring, scaling, security, and automation techniques
-- Worked with AWS AI services: Rekognition, Comprehend, Transcribe, Translate, Forecast
+<table>
+<tr>
+<td width="50%">
 
-### Frontend Developer | SEED Infotech Ltd (May 2023 – Jun 2023)
-- Developed responsive front ends using HTML, CSS, Bootstrap, and JavaScript
-- Focused on optimizing user engagement and satisfaction through compelling pages
+### 🐕 Dog Breed Predictor
+**CNN · TensorFlow · Keras · Kaggle**
 
-## 🎓 Education
-- **B.Tech in Data Science (CSE)** at JIET Institute of Design and Technology (Aug 2022 – 2025)
-- **Class 12th** at Mahatma Gandhi Govt School, Jodhpur (GPA: 87.90, 2020 – 2021)
-- **Class 10th** at Laxmi Devi Mundra Public School, Jodhpur (CGPA: 58, 2018 – 2019)
+Built a Convolutional Neural Network that identifies dog breeds from images. Used Kaggle API for dataset acquisition, custom CNN architecture, and achieved strong test accuracy.
 
-## 🚀 Projects
-### Dog Breed Prediction | Keras, TensorFlow, Kaggle, CNN (Nov 12, 2022)
-- Built, trained, and tested a Convolutional Neural Network to identify dog breeds
-- Utilized Kaggle API for dataset acquisition and data preprocessing
-- Implemented a CNN architecture and achieved satisfactory accuracy on the test set
+[![View Project](https://img.shields.io/badge/View%20Project-6440AE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
 
-# 📊 GitHub Stats
-## 📈 Overall Stats
+</td>
+<td width="50%">
 
-<table align="center" style="background-color:#282A36; color:#F8F8F2; border-radius:10px; border:2px solid #6272A4; padding:10px; width:100%; max-width:850px;">
-  
-  <!-- Trophy Section -->
-  <tr>
-    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
-      🏆 GitHub Trophies
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <a href="">
-        <img src="https://github-profile-trophy.vercel.app/?username=Hardik-Sankhla&theme=onedark" style="max-width:100%; height:auto;"/>
-      </a>
-    </td>
-  </tr>
+### 🤖 Agentic AI Explorer
+**LangChain · LLMs · Python**
 
-  <!-- GitHub Stats -->
-  <tr>
-    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
-      📈 GitHub Stats
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=Hardik-Sankhla&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" style="max-width:100%; height:auto;"/>
-    </td>
-  </tr>
+Experimenting with autonomous AI agents — building multi-step reasoning pipelines that can plan, act, and self-correct using LLM backends.
 
-  <!-- Top Languages -->
-  <tr>
-    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
-      💻 Most Used Languages
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Hardik-Sankhla&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" style="max-width:100%; height:auto;"/>
-    </td>
-  </tr>
+[![View Project](https://img.shields.io/badge/View%20Project-6440AE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
 
-  <!-- Streak Stats -->
-  <tr>
-    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
-      🔥 Streak Stats
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <img src="https://streak-stats.demolab.com/?user=Hardik-Sankhla&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" style="max-width:100%; height:auto;"/>
-    </td>
-  </tr>
-
-  <!-- Activity Graph -->
-  <tr>
-    <td align="center" style="padding:10px; font-size:20px; font-weight:bold; color:#50FA7B;">
-      📈 Activity Graph
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hardik-Sankhla&theme=dracula" style="max-width:100%; height:auto;"/>
-    </td>
-  </tr>
-
+</td>
+</tr>
 </table>
 
+> 💡 More projects on my [GitHub repositories →](https://github.com/Hardik-Sankhla?tab=repositories)
 
-## 💬 Let's Connect!
-Feel free to reach out if you want to collaborate on a project, need any help, or just want to say hi! 😊
+---
 
-💼 [LinkedIn](https://www.linkedin.com/in/hardik-sankhla/) | 📝 [PeerList](https://peerlist.io/hardiksankhla) | ✉️ [Email Me](mailto:datascientist.hardikSankhla@gmail.com)
+## 💼 Experience
 
-<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
-<br>
+### 🔬 AI Intern — Gyan Netra *(Current)*
+- Working on **Generative AI** pipelines and LLM-based applications
+- Exploring **Agentic AI** frameworks for autonomous task completion
+
+### ☁️ AWS Cloud Computing Intern — LinuxWorld Informatics *(Jul–Sep 2023)*
+- Managed AWS infrastructure: **EC2, EBS, S3, EFS, snapshots**
+- Worked with AWS AI services: **Rekognition, Comprehend, Transcribe, Translate, Forecast**
+- Learned monitoring, scaling, security, and automation
+
+### 🌐 Frontend Developer Intern — SEED Infotech Ltd *(May–Jun 2023)*
+- Built responsive UIs with **HTML, CSS, Bootstrap, JavaScript**
+- Focused on user engagement optimization
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=Hardik-Sankhla&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7" alt="GitHub Stats" />
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Hardik-Sankhla&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117&title_color=A855F7" alt="Top Languages" />
+</td>
+</tr>
+</table>
+
+<img src="https://streak-stats.demolab.com/?user=Hardik-Sankhla&theme=dracula&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" alt="GitHub Streak" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hardik-Sankhla&theme=react-dark&bg_color=0D1117&color=A855F7&line=A855F7&point=ffffff&hide_border=true" alt="Activity Graph" width="100%" />
+
+### 🏆 GitHub Trophies
+<img src="https://github-profile-trophy.vercel.app/?username=Hardik-Sankhla&theme=dracula&no-frame=true&no-bg=true&margin-w=4&row=1" alt="Trophies" />
+
 </div>
 
-<p align="center">
-        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
-</p>
+---
 
+## 🎓 Education
 
+🏛️ **B.Tech in Data Science (CSE)** — JIET Institute of Design and Technology, Jodhpur *(2022–2025)*
+
+---
+
+## 📫 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hardik-sankhla/)
+[![PeerList](https://img.shields.io/badge/PeerList-Follow-00AA45?style=for-the-badge&logo=peerlist&logoColor=white)](https://peerlist.io/hardiksankhla)
+[![Email](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:datascientist.hardiksankhla@gmail.com)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Hardik-Sankhla)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 *"I build systems that think, models that evolve, and algorithms that predict."*
+
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="bottom wave" width="100%" />
+
+</div>
