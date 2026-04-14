@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/Images/HardikSankhlaLinkedinProfileBackground.png" alt="Hardik Sankhla — AI/ML Banner" width="100%" />
+<img src="https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/gh-pages/assets/images/HardikSankhlaLinkedinProfileBackground.png" alt="Hardik Sankhla — AI/ML Banner" width="100%" />
 
 # Hardik Sankhla 🤖
 
@@ -194,3 +194,17 @@ Experimenting with autonomous AI agents — building multi-step reasoning pipeli
 <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="bottom wave" width="100%" />
 
 </div>
+
+---
+
+## Maintainer Notes
+
+This repository powers both:
+
+- GitHub profile README presentation
+- Portfolio website deployed from the `gh-pages` branch
+
+For professional update workflow and AI agent operating rules, read:
+
+- [AGENTS.md](AGENTS.md)
+- [.github/copilot-instructions.md](.github/copilot-instructions.md)
