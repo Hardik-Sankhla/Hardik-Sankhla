@@ -128,6 +128,31 @@ If deploy fails, follow in order:
 
 5. Re-run workflow after any secret fix.
 
+## Public Access Checklist (Avoid 404/401 After Successful Deploy)
+
+If CI is green but site is not publicly visible, verify in Vercel UI:
+
+1. Domain assignment:
+
+   - In Project > Settings > Domains, attach `hardik-sankhla.vercel.app` to this project.
+   - Set it as Production and Primary.
+   - If Vercel says domain already in use, remove it from old/stale project first.
+
+2. Deployment protection:
+
+   - In Project > Settings > Deployment Protection, disable auth gate for Production if site must be public.
+   - A `401` with Vercel authentication page means protection is still enabled.
+
+3. Confirm active production deployment:
+
+   - Ensure latest `main` commit is marked Current in Vercel Deployments.
+   - If marked Stale, promote/redeploy latest successful deployment.
+
+4. Verify URLs:
+
+   - `hardik-sankhla.vercel.app` should return `200`.
+   - Project-generated deployment URLs may return `401` when protection is enabled.
+
 ## Common Mistakes To Avoid
 
 - Do not paste token value as the secret NAME.
