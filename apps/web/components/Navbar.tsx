@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -51,7 +52,9 @@ export default function Navbar() {
     <>
       <nav>
         <div className="nav-inner">
-          <span className="nav-logo">HS_</span>
+          <Link href="/" className="nav-logo" aria-label="Go to homepage" onClick={closeNav}>
+            HS_
+          </Link>
           <ul className="nav-links">
             <li>
               <a href={hrefs.about}>About</a>
