@@ -60,3 +60,22 @@ Before any push, agent MUST:
 - No inconsistent structure
 
 ❌ DO NOT push if any check fails
+
+## Automated Vercel Deployment (GitHub Actions)
+
+Workflow: `.github/workflows/vercel-deploy.yml`
+
+Behavior:
+- Pull requests to `main` that touch web/content files trigger a preview deployment.
+- Pushes to `main` trigger a production deployment.
+- Every deployment must pass the web quality gate (`sync-content` + `npm run build`) first.
+
+Required GitHub Secrets:
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+Recommended hardening:
+- Enable branch protection on `main`.
+- Require status checks for the Vercel workflow before merge.
+- Keep `production` environment protection enabled for manual approvals if needed.
