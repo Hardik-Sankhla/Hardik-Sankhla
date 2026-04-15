@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Canonical operating guide for human contributors and AI agents.
+Canonical operating guide for human contributors and any AI coding agent.
 
 ## System Purpose
 
@@ -30,6 +30,10 @@ This repository is an agent-orchestrated personal platform with three surfaces a
 3. Apply in-scope updates only.
 4. Validate touched surfaces.
 5. Report changed files and checks.
+
+## Reusable Task Prompts
+
+For consistent behavior across tools and models, use /system/TASK_TEMPLATES.md.
 
 ## Safety Rules
 

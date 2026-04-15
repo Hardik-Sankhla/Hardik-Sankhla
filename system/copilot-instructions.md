@@ -2,6 +2,8 @@
 
 Read /system/AGENT_PROTOCOL.md before making changes.
 
+These instructions are written to be portable for any AI coding agent that can read repository files and run validations.
+
 ## Always Do
 
 1. Keep changes in scope and architecture-safe.
@@ -18,6 +20,8 @@ Use /system/instructions:
 - web.instructions.md
 - docs.instructions.md
 - profile.instructions.md
+
+Use /system/TASK_TEMPLATES.md for standard task phrasing when issuing commands to agents.
 
 ## Never Do
 

@@ -1,49 +1,62 @@
 # AGENT_PROTOCOL.md
 
-This is the single entry point for all automated updates in this repository.
+Single entry point for any AI model or coding agent working in this repository.
 
 ## Command Contract
 
-When a user says: "read system protocol and do updates", every agent must do the following in order:
+Trigger phrase:
+
+- read system protocol and do updates
+
+Required execution order:
 
 1. Read this file.
-2. Read system governance files:
-   - /system/AGENTS.md
-   - /system/AI_RULES.md
-   - /system/OPERATIONS.md
-3. Read the matching scope instruction in /system/instructions.
-4. Apply minimal, reversible updates in scope.
-5. Run validation checks for changed surfaces.
-6. Return changed files and validation status.
+2. Read /system/AGENTS.md, /system/AI_RULES.md, and /system/OPERATIONS.md.
+3. Read one or more scope files under /system/instructions.
+4. Apply minimal, reversible changes inside scope.
+5. Run required validations.
+6. Report changed files, validations, and unresolved risks.
 
-## Core Operating Model
+## System Model
 
-- Main-only source control model: main is the single source of truth.
-- Content-first architecture: /content is canonical for projects, guides, and courses.
-- Multi-surface rendering model:
-  - apps/web reads content
-  - apps/docs reads generated docs content from canonical sources
-  - profile/README.md is profile source
+- main is the source-of-truth branch.
+- /content is canonical for projects, guides, and courses.
+- /apps/web and /apps/docs consume canonical content.
+- /profile/README.md is the profile source.
 
-## Mandatory Enforcement
+## Hard Constraints
 
-- No duplication of canonical content across app folders.
-- No branch creation from agents unless explicitly requested by user.
-- No branch-specific logic in governance.
-- No structural rewrites unless explicitly requested.
-- No introduction of new frameworks for routine updates.
+- No canonical content duplication outside /content.
+- No branch creation unless explicitly requested by user.
+- No branch-specific governance logic.
+- No architecture rewrites unless explicitly requested.
+- No framework additions for routine updates.
 
-## Scope Mapping
+## Scope Files
 
-- Content work: /system/instructions/content.instructions.md
-- Web work: /system/instructions/web.instructions.md
-- Docs work: /system/instructions/docs.instructions.md
-- Profile work: /system/instructions/profile.instructions.md
+- /system/instructions/content.instructions.md
+- /system/instructions/web.instructions.md
+- /system/instructions/docs.instructions.md
+- /system/instructions/profile.instructions.md
 
 ## Validation Baseline
 
-- Links and paths resolve.
-- apps/web build succeeds when web is touched.
-- mkdocs build succeeds when docs/content are touched.
-- sync-content script succeeds when content/docs are touched.
-- No orphan or duplicated canonical content outside /content.
+- For content/docs changes:
+  - node scripts/sync-content.mjs
+  - mkdocs build -f config/mkdocs.yml
+- For web changes:
+  - npm run build in /apps/web
+- For profile/readme changes:
+  - Markdown links resolve and render correctly
+
+## Failure Handling
+
+- Missing content or metadata:
+  - stop and report exact missing file/field
+  - propose minimal fix in canonical /content path
+- Build failure:
+  - report root cause and impacted files
+  - apply minimal fix and re-run validation
+- Conflict with existing unrelated changes:
+  - do not revert unrelated edits
+  - continue only within requested scope and report assumptions

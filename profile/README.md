@@ -207,5 +207,5 @@ This repository powers a multi-surface ecosystem:
 
 For professional update workflow and AI agent operating rules, read:
 
-- [system/AGENT_PROTOCOL.md](../system/AGENT_PROTOCOL.md)
-- [system/copilot-instructions.md](../system/copilot-instructions.md)
+- [system/AGENT_PROTOCOL.md](https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/main/system/AGENT_PROTOCOL.md)
+- [system/copilot-instructions.md](https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/main/system/copilot-instructions.md)
