@@ -207,5 +207,5 @@ This repository powers a multi-surface ecosystem:
 
 For professional update workflow and AI agent operating rules, read:
 
-- [AGENTS.md](AGENTS.md)
-- [.github/copilot-instructions.md](.github/copilot-instructions.md)
+- [system/AGENT_PROTOCOL.md](../system/AGENT_PROTOCOL.md)
+- [system/copilot-instructions.md](../system/copilot-instructions.md)

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Use branch-specific deployment flows:"
-echo "- web branch -> Vercel"
-echo "- docs branch -> GitHub Pages"
-echo "- profile branch -> GitHub profile README"
+echo "Use main-only source deployment model:"
+echo "- Web deploy target: apps/web (Vercel project root)"
+echo "- Docs build config: config/mkdocs.yml (GitHub Pages pipeline)"
+echo "- Profile source: profile/README.md"

@@ -1,15 +1,8 @@
 # Hardik Sankhla Repository Ecosystem
 
-Production-grade monorepo for Hardik Sankhla's personal AI systems ecosystem.
+Production-grade, content-first monorepo for portfolio, docs, and profile surfaces.
 
-## System Surfaces
-
-- Profile surface: `profile/README.md`
-- Portfolio app: `apps/web`
-- Docs and academy app: `apps/docs`
-- Shared source-of-truth content: `content/*`
-
-## Architecture
+## Final Architecture
 
 ```text
 /apps
@@ -18,50 +11,66 @@ Production-grade monorepo for Hardik Sankhla's personal AI systems ecosystem.
 
 /content
   /projects
-  /blogs
   /guides
   /courses
 
 /profile
-  README.md
 
-/config
+/system
+  AGENT_PROTOCOL.md
+  AGENTS.md
+  AI_RULES.md
+  OPERATIONS.md
+  copilot-instructions.md
+  /instructions
+    content.instructions.md
+    web.instructions.md
+    docs.instructions.md
+    profile.instructions.md
+
 /scripts
+/config
+/archive
 ```
 
-## Branch Strategy (Strict)
+## Source Model
 
-- `main` -> source of truth, no direct deployment
-- `dev` -> active development integration
-- `web` -> portfolio deployment branch (Vercel)
-- `docs` -> documentation deployment branch (GitHub Pages)
-- `profile` -> GitHub profile presentation branch
+- main is the single source of truth for development.
+- Deployment targets are configured by platform tooling, not by branch specialization.
+- /content is canonical for projects, guides, and courses.
 
-Allowed short-lived branches only:
+## Agent Workflow
 
-- `feat/<scope>`
-- `fix/<scope>`
-- `refactor/<scope>`
+Entry command contract:
 
-## Platforms
+- read system protocol and do updates
 
-- Portfolio: deploy from `web`
-- Docs: deploy from `docs`
-- Profile: render from `profile` (root `README.md` in that branch)
+Agent flow:
 
-## Profile Branch Note
+1. Read /system/AGENT_PROTOCOL.md.
+2. Read matching instruction file under /system/instructions.
+3. Apply in-scope changes only.
+4. Validate touched surfaces.
+5. Report changed files and validation output.
 
-On the `profile` branch, run `scripts/sync-profile-readme.ts` before push so root `README.md` mirrors `profile/README.md` for GitHub profile rendering.
+## Triggering Agents
 
-## Mandatory Agent Governance Files
+Use explicit scope language in prompts, for example:
 
-- `AGENTS.md`
-- `AI_RULES.md`
-- `.github/copilot-instructions.md`
-- `.github/instructions/profile-readme.instructions.md`
-- `.github/instructions/website.instructions.md`
+- Update content using /system/instructions/content.instructions.md
+- Update web using /system/instructions/web.instructions.md
+- Update docs using /system/instructions/docs.instructions.md
+- Update profile using /system/instructions/profile.instructions.md
 
-## Mandatory Operational Rule
+## Deployment Model
 
-All projects, blogs, guides, and courses must be created under `content/` only.
-Apps must consume content and must not duplicate content.
+- Web app deploy target: /apps/web (Vercel)
+- Docs deploy source: /config/mkdocs.yml (GitHub Pages pipeline)
+- Profile source: /profile/README.md
+
+## Non-Negotiable Rules
+
+- No canonical content duplication outside /content.
+- No branch creation by agents unless explicitly requested.
+- No branch-specific governance logic.
+- No framework changes for routine updates.
