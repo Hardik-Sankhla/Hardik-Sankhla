@@ -9,8 +9,14 @@ These instructions are written to be portable for any AI coding agent that can r
 1. Keep changes in scope and architecture-safe.
 2. Keep main as the single source of truth.
 3. Preserve content-first behavior (/content is canonical).
-4. Run validation commands for touched surfaces.
+4. Run local preview/validation commands for touched surfaces before pushing.
 5. Return changed files and validation status.
+
+## Pre-Push Local Preview (REQUIRED)
+
+Follow: /system/blocks/pre-push-validation.md
+
+❌ DO NOT push if any check fails
 
 ## Scope Selection
 

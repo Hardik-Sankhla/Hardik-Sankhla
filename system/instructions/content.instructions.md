@@ -16,6 +16,13 @@ Applies to canonical content under:
 - Keep markdown clean and readable.
 - Do not mirror content into /apps/web or /apps/docs manually.
 
+## Guides Source of Truth
+
+- All guides MUST exist only in /content/guides.
+- Agents MUST NOT create guides anywhere else.
+- Agents MUST update existing guides instead of duplicating topics.
+- All guides MUST comply with /system/GUIDE_STANDARD.md.
+
 ## Allowed Actions
 
 - Add or update markdown files under /content/projects, /content/guides, /content/courses, /content/blogs.
@@ -34,6 +41,33 @@ Applies to canonical content under:
 - Required metadata is present.
 - node scripts/sync-content.mjs passes.
 - mkdocs build -f config/mkdocs.yml passes for docs-facing content updates.
+
+See: /system/blocks/pre-push-validation.md
+
+## Pre-Push Local Preview (REQUIRED)
+
+Before any push, agent MUST:
+
+### Web (Vercel)
+- Run: npm run build
+- Optionally: npm run dev for UI validation
+
+### Docs (GitHub Pages)
+- Run: node scripts/sync-content.mjs
+- Run: mkdocs build -f config/mkdocs.yml
+- Optionally: mkdocs serve -f config/mkdocs.yml
+
+### Profile (GitHub README)
+- Verify markdown renders correctly
+- Verify all links resolve
+- If dependent on web/docs, ensure those builds pass
+
+### Global Validation
+- No broken links
+- No missing content
+- No inconsistent structure
+
+❌ DO NOT push if any check fails
 
 ## Failure Handling
 

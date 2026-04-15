@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
+import Script from "next/script";
+import Analytics from "../components/Analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hardik-sankhla.github.io"),
@@ -45,9 +47,27 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {gaId ? (
+          <>
+            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+            <Script id="gtag" strategy="afterInteractive">
+              {`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}', { send_page_view: true });
+              `.trim()}
+            </Script>
+            <Analytics gaId={gaId} />
+          </>
+        ) : null}
+        {children}
+      </body>
     </html>
   );
 }

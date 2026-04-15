@@ -9,10 +9,40 @@ export type ContentItem = {
   stack: string[];
 };
 
+export type ContentDocument = ContentItem & {
+  raw: string;
+};
+
 const FRONTMATTER_RE = /^---\r?\n([\s\S]*?)\r?\n---/;
 
 function readFileSafe(filePath: string): string {
   return fs.readFileSync(filePath, "utf-8");
+}
+
+export function getContentFilePath(collection: "projects" | "guides" | "courses", slug: string): string {
+  return path.resolve(process.cwd(), `../../content/${collection}/${slug}.md`);
+}
+
+export function readContentRaw(collection: "projects" | "guides" | "courses", slug: string): string {
+  const filePath = getContentFilePath(collection, slug);
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Missing content file: ${collection}/${slug}`);
+  }
+  return readFileSafe(filePath);
+}
+
+export function readContentDocument(collection: "projects" | "guides" | "courses", slug: string): ContentDocument {
+  const raw = readContentRaw(collection, slug);
+  const frontmatter = parseFrontmatter(raw);
+
+  return {
+    slug,
+    title: String(frontmatter.title ?? slug),
+    status: typeof frontmatter.status === "string" ? frontmatter.status : undefined,
+    stack: Array.isArray(frontmatter.stack) ? frontmatter.stack : [],
+    summary: parseSummary(raw),
+    raw
+  };
 }
 
 function parseFrontmatter(raw: string): Record<string, string | string[]> {
@@ -76,7 +106,7 @@ export function readContentCollection(collection: "projects" | "guides" | "cours
 
   return fs
     .readdirSync(sourceDir)
-    .filter((name) => name.endsWith(".md"))
+    .filter((name) => name.endsWith(".md") && name.toLowerCase() !== "readme.md")
     .sort()
     .map((name) => {
       const filePath = path.join(sourceDir, name);

@@ -1,6 +1,8 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { readContentCollection } from "../../lib/content";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -13,43 +15,59 @@ export default function ProjectsPage() {
   const projects = readContentCollection("projects");
 
   return (
-    <main className="shell space-y-10 pb-14">
-      <section className="hero-card reveal-section">
-        <h1>Project Index</h1>
-        <p className="text-textsoft">
-          This page is rendered dynamically from canonical files under <strong>/content/projects</strong>.
-        </p>
-        <div className="pill-links">
-          <Link href="/">Back to Home</Link>
-          <a href="https://github.com/Hardik-Sankhla?tab=repositories" target="_blank" rel="noreferrer">
-            GitHub Repositories
-          </a>
-        </div>
-      </section>
+    <>
+      <Navbar />
+      <section>
+        <div className="container">
+          <div className="section-header">
+            <div>
+              <p className="label">// 06 — Projects</p>
+              <h2>All Projects</h2>
+            </div>
+            <span className="section-num">{String(projects.length).padStart(2, "0")} total</span>
+          </div>
 
-      <section className="reveal-section">
-        <h2 className="section-title">All Projects</h2>
-        <div className="cards-grid">
-          {projects.map((project) => (
-            <article key={project.slug} className="project-card project-card-raise flex flex-col gap-2">
-              <h3>{project.title}</h3>
-              <p className="text-textsoft">{project.summary}</p>
-              <p className="project-meta">
-                Status: {project.status ?? "unspecified"}
-                {project.stack.length > 0 ? ` | Stack: ${project.stack.join(", ")}` : ""}
-              </p>
-              <a
-                href={`https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/main/content/projects/${project.slug}.md`}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-auto text-sm text-cyan-200 transition hover:text-cyan-100"
-              >
-                View case study source
-              </a>
-            </article>
-          ))}
+          <div className="projects-grid">
+            {projects.map((project, index) => (
+              <div key={project.slug} className="project-card">
+                <div className="project-num">PRJ_{String(index + 1).padStart(2, "0")} / {project.status ?? "active"}</div>
+                <div className="project-title">{project.title}</div>
+                <p className="project-desc">{project.summary}</p>
+                <div className="project-links">
+                  <Link href={`/projects/${project.slug}`} className="project-link">
+                    Case Study →
+                  </Link>
+                  <a
+                    href={`https://github.com/Hardik-Sankhla/Hardik-Sankhla/blob/main/content/projects/${project.slug}.md`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Source →
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="divider" />
+
+          <div className="project-links">
+            <Link href="/" className="project-link">
+              Home →
+            </Link>
+            <a
+              href="https://github.com/Hardik-Sankhla?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              GitHub Repositories →
+            </a>
+          </div>
         </div>
       </section>
-    </main>
+      <Footer />
+    </>
   );
 }
