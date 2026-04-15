@@ -87,6 +87,9 @@ Required Vercel values (current):
 
 - Team ID (`VERCEL_ORG_ID`): `team_iKtGW0KINN5FkyjGeQrqvkL3`
 - Project ID (`VERCEL_PROJECT_ID`): `prj_KT51pawQj9rOakW7fd2cAKsAQ3zQ`
+- Framework: `nextjs` (project setting)
+- Root Directory: `apps/web`
+- Keep repository root free of `vercel.json` to avoid root-directory config conflicts.
 
 ## Agent Quickstart: Vercel Setup (Do This Exactly Once)
 

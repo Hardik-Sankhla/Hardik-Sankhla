@@ -6,3 +6,5 @@ Thumbs.db
 .next/
 dist/
 site/
+.vercel
+.env*.local
