@@ -75,6 +75,8 @@ Behavior:
 - Pushes to `main` trigger a production deployment.
 - Manual trigger (`workflow_dispatch`) runs quality gate + production deployment.
 - Every deployment must pass the web quality gate (`sync-content` + `npm run build`) first.
+- Quality gate fails if generated content is stale after sync (prevents drift between source and generated artifacts).
+- Preview deployments automatically comment the preview URL on the PR.
 - Runs are queued (not auto-cancelled) to avoid false "cancelled" check noise.
 
 Required GitHub Secrets:

@@ -129,7 +129,8 @@ function writeWebData(projects) {
   const outDir = path.join(root, "apps", "web", "generated");
   fs.mkdirSync(outDir, { recursive: true });
   const outFile = path.join(outDir, "projects.json");
-  fs.writeFileSync(outFile, JSON.stringify({ generatedAt: new Date().toISOString(), projects }, null, 2));
+  // Keep output deterministic so CI can detect real content drift.
+  fs.writeFileSync(outFile, JSON.stringify({ projects }, null, 2));
 }
 
 function markdownCollection(items, folder) {
