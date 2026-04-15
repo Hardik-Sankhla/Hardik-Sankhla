@@ -7,6 +7,7 @@ MkDocs documentation surface.
 From repository root:
 
 ```bash
+node scripts/sync-content.mjs
 uv run mkdocs serve -f config/mkdocs.yml
 ```
 

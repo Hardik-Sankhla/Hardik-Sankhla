@@ -1,13 +1,16 @@
 site_name: Hardik Sankhla Academy
 site_url: https://hardik-sankhla.github.io
 repo_url: https://github.com/Hardik-Sankhla/Hardik-Sankhla
+docs_dir: ../apps/docs/docs
 
 theme:
   name: material
 
 nav:
-  - Home: ../apps/docs/docs/index.md
-  - Projects: ../apps/docs/docs/projects.md
+  - Home: index.md
+  - Projects: projects.md
+  - Guides: guides.md
+  - Courses: courses.md
 
 markdown_extensions:
   - admonition

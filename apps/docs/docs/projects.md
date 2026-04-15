@@ -1,6 +1,6 @@
 # Projects
 
-Canonical project content lives in `/content/projects`.
+Generated from `/content/projects`.
 
-- ai-powered-chatbot
-- computer-vision-system
+- **AI-Powered Chatbot** (source: `/content/projects/ai-powered-chatbot.md`)
+- **Computer Vision System** (source: `/content/projects/computer-vision-system.md`)
