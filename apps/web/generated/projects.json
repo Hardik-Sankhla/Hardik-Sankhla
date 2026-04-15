@@ -1,13 +1,65 @@
 {
-  "generatedAt": "2026-04-15T01:13:04.014Z",
+  "generatedAt": "2026-04-15T01:38:57.681Z",
   "projects": [
     {
       "slug": "ai-powered-chatbot",
-      "title": "AI-Powered Chatbot"
+      "title": "AI-Powered Chatbot",
+      "summary": "Context-aware support assistant that improved answer relevance and reduced repetitive support load with retrieval, memory, and safety guardrails.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "OpenAI",
+        "FastAPI"
+      ],
+      "status": "active"
     },
     {
       "slug": "computer-vision-system",
-      "title": "Computer Vision System"
+      "title": "Computer Vision System",
+      "summary": "Real-time quality inspection pipeline that improved defect detection consistency and accelerated root-cause analysis on production lines.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "TensorFlow"
+      ],
+      "status": "active"
+    },
+    {
+      "slug": "llm-evaluation-observability-pipeline",
+      "title": "LLM Evaluation and Observability Pipeline",
+      "summary": "Evaluation and telemetry framework that made LLM releases safer through repeatable quality checks and production observability.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenTelemetry",
+        "PostgreSQL"
+      ],
+      "status": "active"
+    },
+    {
+      "slug": "ml-recommendation-api-platform",
+      "title": "ML Recommendation API Platform",
+      "summary": "Personalized recommendation service that improved relevance and supported controlled experimentation with low-latency APIs.",
+      "stack": [
+        "Python",
+        "Scikit-learn",
+        "FastAPI",
+        "Redis"
+      ],
+      "status": "active"
+    },
+    {
+      "slug": "predictive-maintenance-mlops-system",
+      "title": "Predictive Maintenance MLOps System",
+      "summary": "Predictive maintenance pipeline that improved failure-risk visibility and operationalized retraining and model release reliability.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Airflow",
+        "Docker"
+      ],
+      "status": "active"
     }
   ]
 }

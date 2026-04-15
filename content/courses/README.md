@@ -1,3 +1,6 @@
-# Courses
+---
+title: Courses Hub
+status: active
+---
 
-Store course roadmaps, notes, and curated learning paths here.
+Entry point for course roadmaps, notes, and curated learning paths for AI and systems engineering growth.

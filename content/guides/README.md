@@ -1,3 +1,6 @@
-# Guides
+---
+title: Guides Hub
+status: active
+---
 
-Write implementation guides and operational playbooks here.
+Entry point for implementation guides and operational playbooks focused on production AI engineering.

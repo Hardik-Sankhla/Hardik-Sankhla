@@ -8,9 +8,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Projects: projects.md
-  - Guides: guides.md
-  - Courses: courses.md
+  - Guides:
+    - Guides Overview: guides.md
+  - Projects:
+    - Projects Overview: projects.md
+  - Courses:
+    - Courses Overview: courses.md
 
 markdown_extensions:
   - admonition

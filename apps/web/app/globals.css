@@ -8,6 +8,10 @@
     @apply bg-base text-white antialiased;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: radial-gradient(circle at 20% 10%, #142b55 0%, #090f1f 55%);
   }
@@ -39,10 +43,30 @@
   }
 
   .project-card {
-    @apply rounded-xl border border-cyan-200/20 bg-card/70 p-4;
+    @apply rounded-xl border border-cyan-200/20 bg-card/70 p-4 transition duration-300;
   }
 
   .project-meta {
     @apply mt-3 text-sm text-textsoft;
+  }
+
+  .project-card-raise {
+    @apply hover:-translate-y-1 hover:border-cyan-300/40 hover:shadow-[0_24px_65px_-35px_rgba(88,212,255,0.75)];
+  }
+
+  .reveal-section {
+    animation: fadeSlideUp 450ms ease-out both;
+  }
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
