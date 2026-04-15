@@ -8,24 +8,24 @@ This document is the human-facing companion to `AGENTS.md`.
 
 When editing personal branding/content:
 
-- Update `README.md`
-- Check `index.md` consistency
+- Update `profile/README.md`
+- Update root `README.md` platform links if needed
 - Verify social/contact links
 
 ### 2. Website UI Update
 
 When editing website layout/behavior:
 
-- Update `index.html`
-- Update `assets/css/style.css` and/or `assets/js/script.js`
+- Update files under `apps/web`
+- Keep public assets in `apps/web/public/assets`
 - Validate links and responsive behavior
 
 ### 3. Asset Update
 
 When adding images/files:
 
-- Place under `assets/images/`
-- Update any references in `README.md`, `index.md`, or `index.html`
+- Place under `apps/web/public/assets/images/`
+- Update any references in `profile/README.md` and `apps/web`
 
 ### 4. Structure/Policy Update
 
@@ -45,5 +45,8 @@ When changing repo workflow:
 
 ## Deployment Notes
 
-This repository is deployed via GitHub Pages from `gh-pages`.
-Keep `index.html` at repository root and include `.nojekyll` for static-only publishing.
+Deployment is branch-based by surface:
+
+- `web` branch -> Vercel (`apps/web`)
+- `docs` branch -> GitHub Pages (`apps/docs`)
+- `profile` branch -> GitHub profile rendering

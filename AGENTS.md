@@ -1,97 +1,228 @@
 # AGENTS.md
 
-This is the canonical operating guide for AI agents and contributors working in this repository.
+This is the canonical operating system for all AI agents and contributors working in this repository.
 
-## Repository Purpose
+---
 
-This repo serves two production surfaces:
+# 🧠 SYSTEM PURPOSE
 
-1. GitHub profile presentation (`README.md` in default branch).
-2. Portfolio website deployed via GitHub Pages from `gh-pages`.
+This repository is a **multi-surface personal ecosystem**, not a single website.
 
-## Branch Strategy
+It powers:
 
-Use this branch model:
+1. GitHub Profile (`/profile/README.md`)
+2. Portfolio Website (Next.js → Vercel)
+3. Documentation / Academy (MkDocs → GitHub Pages)
+4. Central Knowledge System (`/content`)
 
-- `gh-pages`: production website + profile assets.
-- `main`: stable source mirror and review branch.
-- `develop`: active integration branch for non-trivial updates.
-- `feature/<name>`: short-lived implementation branches.
-- `hotfix/<name>`: urgent production fixes.
+---
 
-Do not create ad-hoc long-lived branches.
+# ⚠️ CORE PRINCIPLE (NON-NEGOTIABLE)
 
-## Mandatory Update Protocol
+> **Single Source of Truth = `/content`**
 
-For any meaningful change:
+All:
 
-1. Update the target file(s).
-2. Update related references and links.
-3. Validate local preview.
-4. Validate branch strategy and commit hygiene.
-5. Push with clear commit message.
+* projects
+* blogs
+* guides
+* courses
 
-## Compulsory Files to Check
+MUST live in `/content`.
 
-- `README.md` (profile content + maintainer links)
-- `index.html` (portfolio entry page)
-- `assets/css/style.css`
-- `assets/js/script.js`
-- `assets/images/*`
-- `AGENTS.md`
-- `.github/copilot-instructions.md`
-- `.github/instructions/*.instructions.md`
+Apps only READ from content.
+Apps MUST NOT duplicate content.
 
-## Content Quality Rules
+---
 
-- No placeholder links like `href="#"`.
-- Keep external links valid and meaningful.
-- Keep contact links consistent across profile and site.
-- Maintain professional tone and clear visual hierarchy.
+# 🧱 REPOSITORY ARCHITECTURE
 
-## Validation Before Push
+/apps
+/web        → Next.js portfolio (Vercel)
+/docs       → MkDocs documentation (GitHub Pages)
 
-1. Confirm no broken internal asset paths.
-2. Run local static preview from repo root.
-3. Smoke check key sections: hero, projects, experience, contact.
-4. Confirm no unexpected file deletions.
+/content
+/projects
+/blogs
+/guides
+/courses
 
-## Local Preview
+/profile
+README.md   → GitHub profile
 
-Use one of:
+/config
+/scripts
 
-```powershell
-python -m http.server 8000
-```
+---
 
-or
+# 🌿 BRANCH STRATEGY (STRICT)
 
-```powershell
-npx serve .
-```
+Allowed branches ONLY:
 
-Then open `http://127.0.0.1:8000`.
+* `main` → source of truth
+* `dev` → active development
+* `web` → deployment (Vercel)
+* `docs` → deployment (GitHub Pages)
+* `profile` → GitHub profile rendering
 
-## Commit Standards
+Feature branches:
 
-Use concise prefixes:
+* `feat/<scope>`
+* `fix/<scope>`
+* `refactor/<scope>`
 
-- `feat:` new feature
-- `fix:` bug fix
-- `refactor:` structure cleanup
-- `docs:` guidance or profile text updates
-- `chore:` maintenance
+❌ NEVER create:
 
-## Branch Cleanup Policy
+* random branch names
+* long-lived experimental branches
+* old branches like `develop`, `gh-pages`, `portfolio`
 
-Delete stale remote branches after merge or replacement.
-Keep only strategy branches and currently active work branches.
+---
 
-## Agent Command Contract
+# 🔁 AGENT OPERATING RULES
 
-When user says: `Read respective guide and do updates`, agent must:
+## 1. Before Doing Anything
 
-1. Read `AGENTS.md` and `.github/copilot-instructions.md` first.
-2. Apply mandatory update protocol.
-3. Run local validation.
-4. Provide changed files and outcomes clearly.
+Agent MUST read:
+
+* `AGENTS.md`
+* `.github/copilot-instructions.md`
+
+---
+
+## 2. When Making Changes
+
+Agent MUST:
+
+1. Identify affected surface:
+
+   * profile / web / docs / content
+
+2. Update ALL dependent references:
+
+   * links
+   * navigation
+   * README
+
+3. NEVER:
+
+   * duplicate content across folders
+   * recreate deleted branches
+   * introduce legacy structure (like root `index.html` unless explicitly required)
+
+---
+
+## 3. Content Handling Rules
+
+* Content lives ONLY in `/content`
+* Use structured formats (MD / MDX)
+* Keep naming consistent
+
+Example:
+
+/content/projects/ai-agent-platform.md
+
+---
+
+## 4. App Responsibilities
+
+### `/apps/web`
+
+* Renders portfolio
+* Uses content dynamically
+
+### `/apps/docs`
+
+* Renders guides / academy
+* Uses MkDocs
+
+### `/profile`
+
+* Minimal, clean, high-signal branding
+
+---
+
+# 🚀 DEPLOYMENT RULES
+
+* `web` branch → Vercel deploy
+* `docs` branch → GitHub Pages
+* `profile` branch → GitHub profile
+
+`main` NEVER directly deploys
+
+---
+
+# 🧪 VALIDATION BEFORE PUSH
+
+Agent MUST verify:
+
+1. No broken links
+2. No duplicated content
+3. Correct branch usage
+4. Navigation consistency
+5. No orphan files
+
+---
+
+# 🧾 COMMIT STANDARD
+
+Use:
+
+* `feat:` new capability
+* `fix:` bug fix
+* `refactor:` structural change
+* `docs:` content or documentation
+* `chore:` maintenance
+
+---
+
+# 🧹 BRANCH HYGIENE
+
+* Delete merged branches
+* Do NOT keep stale branches
+* Do NOT recreate removed branches
+
+---
+
+# 🤖 AI SAFETY RULES (CRITICAL)
+
+Agents MUST NOT:
+
+* recreate deleted folders or branches
+* generate duplicate versions of same content
+* assume old repo structure
+* create placeholder or dummy links
+* overwrite unrelated files
+
+---
+
+# 📣 AGENT COMMAND CONTRACT
+
+When user says:
+
+"Read respective guide and do updates"
+
+Agent MUST:
+
+1. Read AGENTS.md + copilot instructions
+2. Identify scope (web/docs/profile/content)
+3. Apply changes respecting architecture
+4. Update all dependencies
+5. Validate system integrity
+6. Return:
+
+   * changed files
+   * summary of impact
+   * next recommendations
+
+---
+
+# ✅ REQUIRED CONTROL FILES
+
+Agent must ensure these remain synchronized after branch or architecture changes:
+
+* `README.md`
+* `AI_RULES.md`
+* `.github/copilot-instructions.md`
+* `.github/instructions/website.instructions.md`
+* `.github/instructions/profile-readme.instructions.md`

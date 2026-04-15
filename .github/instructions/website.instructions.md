@@ -1,18 +1,18 @@
 ---
-applyTo: "index.html,assets/css/**/*.css,assets/js/**/*.js"
-description: "Use when editing portfolio website UI, content, links, and static behavior in this repository."
+applyTo: "apps/web/**"
+description: "Use when editing portfolio web app files, UI, links, and web deployment behavior."
 ---
 
 # Website Update Instructions
 
 ## Scope
 
-These instructions apply to the static portfolio website files.
+These instructions apply to portfolio web app files in `apps/web`.
 
 ## Rules
 
-- Keep `index.html` as top-level entry file.
-- Keep asset references under `assets/` only.
+- Keep web files inside `apps/web` only.
+- Keep asset references under `apps/web/assets/`.
 - Ensure no `href="#"` remains in production.
 - Prefer semantic HTML and accessible labels.
 - Preserve responsive behavior for mobile and desktop.

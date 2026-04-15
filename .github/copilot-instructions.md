@@ -5,9 +5,9 @@ Read `AGENTS.md` before making any change.
 ## Always Do
 
 1. Keep repository professional and deployment-safe.
-2. Preserve `gh-pages` compatibility for GitHub Pages.
-3. Keep profile content in `README.md` polished and up to date.
-4. Keep website entrypoint in `index.html` functional.
+2. Enforce branch strategy: `main`, `dev`, `web`, `docs`, `profile` only.
+3. Keep profile source content in `profile/README.md` polished and up to date.
+4. Keep portfolio source under `apps/web` and docs source under `apps/docs`.
 5. Avoid placeholder links or unfinished UI copy.
 
 ## Required Workflow
@@ -24,6 +24,7 @@ Read `AGENTS.md` before making any change.
 - Do not delete branches unless explicitly requested by user.
 - Do not force-push unless explicitly requested by user.
 - Do not introduce unverified personal claims in profile content.
+- Do not recreate removed legacy branches like `gh-pages` or `develop`.
 
 ## Quality Bar
 

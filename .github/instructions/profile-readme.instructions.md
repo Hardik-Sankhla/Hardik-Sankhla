@@ -1,13 +1,13 @@
 ---
-applyTo: "README.md,index.md"
-description: "Use when editing GitHub profile presentation markdown and profile landing markdown pages."
+applyTo: "profile/README.md,README.md"
+description: "Use when editing profile source content and repository overview markdown."
 ---
 
 # Profile README Instructions
 
 ## Scope
 
-This file governs updates to profile markdown content.
+This file governs updates to profile markdown content and repository-level summary readme.
 
 ## Rules
 
@@ -19,7 +19,7 @@ This file governs updates to profile markdown content.
 
 ## Required Checks
 
-1. Banner path resolves.
+1. Banner path resolves from `profile/README.md`.
 2. Social links are live and correct.
 3. Email/contact entries match current preferred contact.
 4. Markdown renders without broken tables/code blocks.
