@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/assets/images/HardikSankhlaLinkedinProfileBackground.png",
-        width: 1200,
-        height: 630,
+        url: "/assets/images/hero-background.webp",
+        width: 900,
+        height: 879,
         alt: "Hardik Sankhla AI Systems Engineering"
       }
     ]
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Hardik Sankhla | AI Systems Engineer",
     description:
       "Case studies and practical guides on building production AI systems, ML platforms, and reliable model workflows.",
-    images: ["/assets/images/HardikSankhlaLinkedinProfileBackground.png"]
+    images: ["/assets/images/hero-background.webp"]
   }
 };
 

@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-image-layer" aria-hidden="true">
         <img
-          src="/assets/images/HardikSankhlaLinkedinProfileBackground.png"
+          src="/assets/images/hero-background.webp"
           alt=""
           width={900}
           height={879}
