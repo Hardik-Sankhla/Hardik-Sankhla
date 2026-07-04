@@ -10,6 +10,16 @@
 
 <br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+</picture>
+
+<br/>
+
+<br/>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-sankhla)
 [![GitHub](https://img.shields.io/badge/GitHub-Hardik--Sankhla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
 [![Twitter/X](https://img.shields.io/badge/X-AIDrivenHardik-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AIDrivenHardik)
