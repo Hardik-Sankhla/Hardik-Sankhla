@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -50,12 +50,17 @@ jobs:
       - name: Sync generated content
         run: node scripts/sync-content.mjs
 
-      - name: Verify generated content is committed
+      - name: Commit generated content
         run: |
-          git diff --exit-code -- apps/web/generated apps/docs/docs || {
-            echo "Generated content is out of date. Run: node scripts/sync-content.mjs and commit updated files."
-            exit 1;
-          }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- apps/web/generated apps/docs/docs; then
+            git add apps/web/generated apps/docs/docs
+            git commit -m "chore: sync generated content [skip ci]"
+            git push
+          else
+            echo "No generated content changes to commit"
+          fi
 
       - name: Install web dependencies
         run: npm ci
