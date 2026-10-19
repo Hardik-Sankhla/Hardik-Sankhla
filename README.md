@@ -2,7 +2,7 @@
 
 # Hardik Sankhla
 
-**AI Engineer** • B.Tech Data Science (JIET Jodhpur, 2021–2025) • Jodhpur, India
+**AI Engineer** • LLM Systems, Agentic AI & Backend Infrastructure • Jodhpur, India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-sankhla)
 [![GitHub](https://img.shields.io/badge/GitHub-Hardik--Sankhla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
@@ -11,14 +11,70 @@
 
 </div>
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+</picture>
+
+<br/>
+
 ---
 
 ## About Me
 
-Final-year B.Tech Data Science student at JIET Institute of Design & Technology, Jodhpur. Building production AI systems with an engineering-first mindset. Focus on LLM pipelines, agentic workflows, and ML infrastructure.
+AI Engineer building LLM-powered software systems with a focus on agentic workflows, backend APIs, and reliable infrastructure.
 
-**Currently:** AI Intern at Gyan Netra (Nov 2024 – present)  
-**Previously:** School of AI course (Apr–Sep 2025), LinuxWorld AWS training (Jul–Sep 2023), SEED Infotech frontend training (May–Jun 2023)
+My work spans Python, FastAPI, data systems, model integration, workflow automation, and observability. I care about making systems not only functional, but testable, maintainable, and practical to deploy.
+
+**Focus areas:**
+- LLM applications, retrieval, and evaluation
+- Agentic systems and tool integrations
+- Backend engineering and asynchronous processing
+- AI infrastructure, observability, and deployment
+
+**Selected work:** [Portfolio](https://hardik-sankhla.vercel.app) · [GitHub repositories](https://github.com/Hardik-Sankhla) · [LinkedIn](https://linkedin.com/in/hardik-sankhla)
+
+---
+
+## Education
+
+**B.Tech in Computer Science & Engineering (Data Science)**  
+JIET Institute of Design & Technology, Jodhpur  
+**2021 – 2025** • Degree awarded
+
+---
+
+## Experience
+
+### AI Engineer — Gyan Netra (Gyannetra Pvt Ltd)
+**Sep 2025 – Present** | Jodhpur, India
+- Building LLM applications, agentic workflows, and backend infrastructure
+- Stack: FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
+
+### AI Intern — Gyan Netra (Gyannetra Pvt Ltd)
+**Nov 2024 – Aug 2025** | Jodhpur, India
+- **Phase 1 (Nov 2024 – Apr 2025):** Self-driven FastAPI backend development, CRUD APIs, database design
+- **Phase 2 (May 2025 – Aug 2025):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
+- Stack: FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
+
+### School of AI — Training / Coursework
+**Apr – Sep 2025** | Unpaid
+- Agentic AI patterns: AutoGen, LangGraph, CrewAI, AutoGPT
+- Multi-agent orchestration, RAG pipelines, evaluation frameworks
+
+### AWS Cloud Computing Intern — LinuxWorld Informatics
+**Jul – Sep 2023** | Paid Training
+- Infrastructure: EC2, EBS, S3, EFS, snapshots, IAM, VPC
+- AI Services: Rekognition, Comprehend, Transcribe, Translate, Forecast
+- Monitoring, scaling, security, automation
+
+### Frontend Developer Intern — SEED Infotech Ltd
+**May – Jun 2023** | Paid Training
+- Responsive UIs: HTML, CSS, Bootstrap, JavaScript
+- User engagement optimization
 
 ---
 
@@ -38,32 +94,6 @@ Final-year B.Tech Data Science student at JIET Institute of Design & Technology,
 
 ---
 
-## Experience
-
-### AI Intern — Gyan Netra
-**Nov 2024 – Present** | Jodhpur, India
-- **Phase 1 (Nov 2024 – Apr 2025, unpaid):** Self-driven FastAPI backend development, CRUD APIs, database design
-- **Phase 2 (Sep 2025 – present, paid):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
-- **Stack:** FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
-
-### School of AI (Course with Intern Branding)
-**Apr – Sep 2025** | Unpaid
-- Agentic AI patterns: AutoGen, LangGraph, CrewAI, AutoGPT
-- Multi-agent orchestration, RAG pipelines, evaluation frameworks
-
-### AWS Cloud Computing Intern — LinuxWorld Informatics
-**Jul – Sep 2023** | Paid Training
-- Infrastructure: EC2, EBS, S3, EFS, snapshots, IAM, VPC
-- AI Services: Rekognition, Comprehend, Transcribe, Translate, Forecast
-- Monitoring, scaling, security, automation
-
-### Frontend Developer Intern — SEED Infotech Ltd
-**May – Jun 2023** | Paid Training
-- Responsive UIs: HTML, CSS, Bootstrap, JavaScript
-- User engagement optimization
-
----
-
 ## Featured Personal Projects (Public Repositories)
 
 | Project | Description | Stack | Repo |
@@ -77,8 +107,6 @@ Final-year B.Tech Data Science student at JIET Institute of Design & Technology,
 | **PREDICT-EMPLOYEE-RETENTION** | ML Classification | Python, scikit-learn, Jupyter | [github.com/Hardik-Sankhla/PREDICT-EMPLOYEE-RETENTION](https://github.com/Hardik-Sankhla/PREDICT-EMPLOYEE-RETENTION) |
 | **HOUSE-PRICE-PREDICTION** | Regression | Python, scikit-learn, Jupyter | [github.com/Hardik-Sankhla/HOUSE-PRICE-PREDICTION](https://github.com/Hardik-Sankhla/HOUSE-PRICE-PREDICTION) |
 | **Message-Using-Python** | Twilio SMS Automation | Python, Twilio API | [github.com/Hardik-Sankhla/Message-Using-Python](https://github.com/Hardik-Sankhla/Message-Using-Python) |
-
-> **Note:** Additional personal repositories (emlpy, Prolog, agent_observatory) are private. Invoice-Extraction repository not found.
 
 ---
 
@@ -96,24 +124,9 @@ The following projects are documented in this repository's canonical content (`/
 
 ---
 
-## Active Applications
-- **RytLoop AI Intern** (Greater Jodhpur)
-- **MediNex** — Workforce Data Science Intern + AI Intern
-
----
-
-## Education
-
-**B.Tech in Computer Science & Engineering (Data Science)**  
-JIET Institute of Design & Technology, Jodhpur  
-**2021 – 2025** | *Graduation status: verify with institution*
-
----
-
 ## Connect
 
 - **Email:** datascientist.hardiksankhla@gmail.com
-- **Phone:** +91 9024317887
 - **LinkedIn:** [linkedin.com/in/hardik-sankhla](https://linkedin.com/in/hardik-sankhla)
 - **GitHub:** [github.com/Hardik-Sankhla](https://github.com/Hardik-Sankhla)
 - **PeerList:** [peerlist.io/hardiksankhla](https://peerlist.io/hardiksankhla)
