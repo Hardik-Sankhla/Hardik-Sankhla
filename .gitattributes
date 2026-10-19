@@ -44,37 +44,6 @@ content/**/*.md text eol=lf
 profile/**/*.md text eol=lf
 system/**/*.md text eol=lf
 
-# Binary files - no normalization
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.svg binary
-*.woff binary
-*.woff2 binary
-*.ttf binary
-*.eot binary
-*.pdf binary
-*.zip binary
-*.gz binary
-*.tar binary
-*.exe binary
-*.dll binary
-*.so binary
-*.dylib binary
-*.class binary
-*.jar binary
-*.war binary
-*.ear binary
-
-# Node modules and build artifacts (ignored anyway, but explicit)
-node_modules/** binary
-.next/** binary
-dist/** binary
-site/** binary
-.vercel/** binary
-
 # Windows-specific scripts (if any) - preserve CRLF
 *.bat text eol=crlf
 *.cmd text eol=crlf
