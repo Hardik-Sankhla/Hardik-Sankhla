@@ -50,14 +50,15 @@ JIET Institute of Design & Technology, Jodhpur
 ## Experience
 
 ### AI Engineer — Gyan Netra (Gyannetra Pvt Ltd)
-**Sep 2025 – Present** | Jodhpur, India
+**Sep 2025 – Feb 2026** | Jodhpur, India
+- Paid internship (upgraded from unpaid internship)
 - Building LLM applications, agentic workflows, and backend infrastructure
 - Stack: FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
 
 ### AI Intern — Gyan Netra (Gyannetra Pvt Ltd)
 **Nov 2024 – Aug 2025** | Jodhpur, India
-- **Phase 1 (Nov 2024 – Apr 2025):** Self-driven FastAPI backend development, CRUD APIs, database design
-- **Phase 2 (May 2025 – Aug 2025):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
+- **Phase 1 (Nov 2024 – Apr 2025, unpaid):** Self-driven FastAPI backend development, CRUD APIs, database design
+- **Phase 2 (May 2025 – Aug 2025, paid):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
 - Stack: FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
 
 ### School of AI — Training / Coursework
