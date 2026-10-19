@@ -4,6 +4,16 @@
 
 **AI Engineer** • B.Tech Data Science (JIET Jodhpur, 2021–2025) • Jodhpur, India
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
+</picture>
+
+<br/>
+
+<br/>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-sankhla)
 [![GitHub](https://img.shields.io/badge/GitHub-Hardik--Sankhla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:datascientist.hardiksankhla@gmail.com)
