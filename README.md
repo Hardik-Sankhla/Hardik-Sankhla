@@ -4,16 +4,6 @@
 
 **AI Engineer** • B.Tech Data Science (JIET Jodhpur, 2021–2025) • Jodhpur, India
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Hardik-Sankhla/Hardik-Sankhla/output/pacman-contribution-graph.svg">
-</picture>
-
-<br/>
-
-<br/>
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hardik-sankhla)
 [![GitHub](https://img.shields.io/badge/GitHub-Hardik--Sankhla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hardik-Sankhla)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:datascientist.hardiksankhla@gmail.com)
@@ -53,7 +43,7 @@ Final-year B.Tech Data Science student at JIET Institute of Design & Technology,
 ### AI Intern — Gyan Netra
 **Nov 2024 – Present** | Jodhpur, India
 - **Phase 1 (Nov 2024 – Apr 2025, unpaid):** Self-driven FastAPI backend development, CRUD APIs, database design
-- **Phase 2 (Sep 2025 – Feb 2026, paid):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
+- **Phase 2 (Sep 2025 – present, paid):** Production debugging, AI-assisted development, observability (LGTM stack), Redis/RabbitMQ/Celery integration
 - **Stack:** FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, OpenTelemetry, Docker, AWS
 
 ### School of AI (Course with Intern Branding)
@@ -74,30 +64,35 @@ Final-year B.Tech Data Science student at JIET Institute of Design & Technology,
 
 ---
 
-## Flagship Projects (Personal)
+## Featured Personal Projects (Public Repositories)
 
 | Project | Description | Stack | Repo |
 |---------|-------------|-------|------|
-| **emlpy** | Email parsing & extraction library | Python | [github.com/Hardik-Sankhla/emlpy](https://github.com/Hardik-Sankhla/emlpy) |
 | **relay-connect** | Service communication layer | Python, FastAPI | [github.com/Hardik-Sankhla/relay-connect](https://github.com/Hardik-Sankhla/relay-connect) |
 | **OpportunityOS** | Opportunity tracking system | FastAPI, PostgreSQL | [github.com/Hardik-Sankhla/OpportunityOS](https://github.com/Hardik-Sankhla/OpportunityOS) |
-| **Prolog** | Logic programming utilities | Python | [github.com/Hardik-Sankhla/Prolog](https://github.com/Hardik-Sankhla/Prolog) |
-| **Invoice Extraction** | Document AI pipeline | Python, LangChain, Ollama | [github.com/Hardik-Sankhla/Invoice-Extraction](https://github.com/Hardik-Sankhla/Invoice-Extraction) |
 | **AiOS** | AI operating system concepts | Python, Streamlit | [github.com/Hardik-Sankhla/AiOS](https://github.com/Hardik-Sankhla/AiOS) |
-| **agent_observatory** | Agent monitoring & observability | Python, OpenTelemetry | [github.com/Hardik-Sankhla/agent_observatory](https://github.com/Hardik-Sankhla/agent_observatory) |
 | **SCHOOL-OF-AI** | Coursework & experiments | Python, LangGraph, AutoGen | [github.com/Hardik-Sankhla/SCHOOL-OF-AI](https://github.com/Hardik-Sankhla/SCHOOL-OF-AI) |
-
----
-
-## Coursework & Training Projects
-
-| Project | Type | Stack | Repo |
-|---------|------|-------|------|
 | **CNN-Plastic-Waste-Classification** | Deep Learning (CNN) | Python, TensorFlow, Keras, Jupyter | [github.com/Hardik-Sankhla/CNN-Plastic-Waste-Classification](https://github.com/Hardik-Sankhla/CNN-Plastic-Waste-Classification) |
 | **Mastering-Agentic-Design-Patterns** | Agentic AI Coursework | Python, AutoGen, LangGraph, CrewAI | [github.com/Hardik-Sankhla/Mastering-Agentic-Design-Patterns-with-Hands-on-Projects](https://github.com/Hardik-Sankhla/Mastering-Agentic-Design-Patterns-with-Hands-on-Projects) |
 | **PREDICT-EMPLOYEE-RETENTION** | ML Classification | Python, scikit-learn, Jupyter | [github.com/Hardik-Sankhla/PREDICT-EMPLOYEE-RETENTION](https://github.com/Hardik-Sankhla/PREDICT-EMPLOYEE-RETENTION) |
 | **HOUSE-PRICE-PREDICTION** | Regression | Python, scikit-learn, Jupyter | [github.com/Hardik-Sankhla/HOUSE-PRICE-PREDICTION](https://github.com/Hardik-Sankhla/HOUSE-PRICE-PREDICTION) |
 | **Message-Using-Python** | Twilio SMS Automation | Python, Twilio API | [github.com/Hardik-Sankhla/Message-Using-Python](https://github.com/Hardik-Sankhla/Message-Using-Python) |
+
+> **Note:** Additional personal repositories (emlpy, Prolog, agent_observatory) are private. Invoice-Extraction repository not found.
+
+---
+
+## Portfolio Projects (Canonical Content)
+
+The following projects are documented in this repository's canonical content (`/content/projects/`) and rendered on the portfolio website and documentation site:
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **AI-Powered Chatbot** | Context-aware support assistant with retrieval, memory, and safety guardrails | Python, LangChain, OpenAI, FastAPI |
+| **Computer Vision System** | Real-time quality inspection pipeline with YOLOv8 and OpenCV | Python, YOLOv8, OpenCV, TensorFlow |
+| **LLM Evaluation & Observability Pipeline** | Evaluation and telemetry framework for LLM releases | Python, FastAPI, OpenTelemetry, PostgreSQL |
+| **ML Recommendation API Platform** | Personalized recommendation service with low-latency APIs | Python, Scikit-learn, FastAPI, Redis |
+| **Predictive Maintenance MLOps System** | Predictive maintenance pipeline with automated retraining | Python, XGBoost, Airflow, Docker |
 
 ---
 
@@ -111,7 +106,7 @@ Final-year B.Tech Data Science student at JIET Institute of Design & Technology,
 
 **B.Tech in Computer Science & Engineering (Data Science)**  
 JIET Institute of Design & Technology, Jodhpur  
-**2021 – 2025** | *Degree pending (4th semester result awaited)*
+**2021 – 2025** | *Graduation status: verify with institution*
 
 ---
 
